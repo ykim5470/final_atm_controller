@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "atm_control_lewis"
+version = "0.0.1"
+authors = [
+  { name="lewis kim", email="hubert8663@gmail.com" },
+]
+description = "ATM controller package"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ykim5470/final_atm_controller"
+"Bug Tracker" = "https://github.com/ykim5470/final_atm_controller"
